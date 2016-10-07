@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49DA55361DA78DDD00B335CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA55351DA78DDD00B335CE /* main.m */; };
+		49DA55391DA78DDD00B335CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA55381DA78DDD00B335CE /* AppDelegate.m */; };
+		49DA553C1DA78DDD00B335CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA553B1DA78DDD00B335CE /* ViewController.m */; };
+		49DA553F1DA78DDD00B335CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DA553D1DA78DDD00B335CE /* Main.storyboard */; };
+		49DA55411DA78DDD00B335CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DA55401DA78DDD00B335CE /* Assets.xcassets */; };
+		49DA55441DA78DDD00B335CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DA55421DA78DDD00B335CE /* LaunchScreen.storyboard */; };
+		49DA554F1DA78DDD00B335CE /* ORDropMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA554E1DA78DDD00B335CE /* ORDropMenuTests.m */; };
+		49DA55641DA78E3700B335CE /* ORDropMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA55611DA78E3700B335CE /* ORDropMenuView.m */; };
+		49DA55651DA78E3700B335CE /* ORHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA55631DA78E3700B335CE /* ORHeaderFooterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49DA554B1DA78DDD00B335CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49DA55291DA78DDD00B335CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49DA55301DA78DDD00B335CE;
+			remoteInfo = ORDropMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49DA55311DA78DDD00B335CE /* ORDropMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ORDropMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DA55351DA78DDD00B335CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49DA55371DA78DDD00B335CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49DA55381DA78DDD00B335CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49DA553A1DA78DDD00B335CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49DA553B1DA78DDD00B335CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49DA553E1DA78DDD00B335CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49DA55401DA78DDD00B335CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49DA55431DA78DDD00B335CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49DA55451DA78DDD00B335CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DA554A1DA78DDD00B335CE /* ORDropMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORDropMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DA554E1DA78DDD00B335CE /* ORDropMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORDropMenuTests.m; sourceTree = "<group>"; };
+		49DA55501DA78DDD00B335CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DA55601DA78E3700B335CE /* ORDropMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORDropMenuView.h; sourceTree = "<group>"; };
+		49DA55611DA78E3700B335CE /* ORDropMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORDropMenuView.m; sourceTree = "<group>"; };
+		49DA55621DA78E3700B335CE /* ORHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHeaderFooterView.h; sourceTree = "<group>"; };
+		49DA55631DA78E3700B335CE /* ORHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHeaderFooterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49DA552E1DA78DDD00B335CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DA55471DA78DDD00B335CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49DA55281DA78DDD00B335CE = {
+			isa = PBXGroup;
+			children = (
+				49DA55331DA78DDD00B335CE /* ORDropMenu */,
+				49DA554D1DA78DDD00B335CE /* ORDropMenuTests */,
+				49DA55321DA78DDD00B335CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49DA55321DA78DDD00B335CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49DA55311DA78DDD00B335CE /* ORDropMenu.app */,
+				49DA554A1DA78DDD00B335CE /* ORDropMenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49DA55331DA78DDD00B335CE /* ORDropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				49DA55371DA78DDD00B335CE /* AppDelegate.h */,
+				49DA55381DA78DDD00B335CE /* AppDelegate.m */,
+				49DA555F1DA78E3700B335CE /* ORDropMenu */,
+				49DA553A1DA78DDD00B335CE /* ViewController.h */,
+				49DA553B1DA78DDD00B335CE /* ViewController.m */,
+				49DA553D1DA78DDD00B335CE /* Main.storyboard */,
+				49DA55401DA78DDD00B335CE /* Assets.xcassets */,
+				49DA55421DA78DDD00B335CE /* LaunchScreen.storyboard */,
+				49DA55451DA78DDD00B335CE /* Info.plist */,
+				49DA55341DA78DDD00B335CE /* Supporting Files */,
+			);
+			path = ORDropMenu;
+			sourceTree = "<group>";
+		};
+		49DA55341DA78DDD00B335CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49DA55351DA78DDD00B335CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49DA554D1DA78DDD00B335CE /* ORDropMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				49DA554E1DA78DDD00B335CE /* ORDropMenuTests.m */,
+				49DA55501DA78DDD00B335CE /* Info.plist */,
+			);
+			path = ORDropMenuTests;
+			sourceTree = "<group>";
+		};
+		49DA555F1DA78E3700B335CE /* ORDropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				49DA55601DA78E3700B335CE /* ORDropMenuView.h */,
+				49DA55611DA78E3700B335CE /* ORDropMenuView.m */,
+				49DA55621DA78E3700B335CE /* ORHeaderFooterView.h */,
+				49DA55631DA78E3700B335CE /* ORHeaderFooterView.m */,
+			);
+			path = ORDropMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49DA55301DA78DDD00B335CE /* ORDropMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49DA55531DA78DDD00B335CE /* Build configuration list for PBXNativeTarget "ORDropMenu" */;
+			buildPhases = (
+				49DA552D1DA78DDD00B335CE /* Sources */,
+				49DA552E1DA78DDD00B335CE /* Frameworks */,
+				49DA552F1DA78DDD00B335CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ORDropMenu;
+			productName = ORDropMenu;
+			productReference = 49DA55311DA78DDD00B335CE /* ORDropMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49DA55491DA78DDD00B335CE /* ORDropMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49DA55561DA78DDD00B335CE /* Build configuration list for PBXNativeTarget "ORDropMenuTests" */;
+			buildPhases = (
+				49DA55461DA78DDD00B335CE /* Sources */,
+				49DA55471DA78DDD00B335CE /* Frameworks */,
+				49DA55481DA78DDD00B335CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49DA554C1DA78DDD00B335CE /* PBXTargetDependency */,
+			);
+			name = ORDropMenuTests;
+			productName = ORDropMenuTests;
+			productReference = 49DA554A1DA78DDD00B335CE /* ORDropMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49DA55291DA78DDD00B335CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = OYR;
+				TargetAttributes = {
+					49DA55301DA78DDD00B335CE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X3YFLE989D;
+						ProvisioningStyle = Automatic;
+					};
+					49DA55491DA78DDD00B335CE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49DA55301DA78DDD00B335CE;
+					};
+				};
+			};
+			buildConfigurationList = 49DA552C1DA78DDD00B335CE /* Build configuration list for PBXProject "ORDropMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49DA55281DA78DDD00B335CE;
+			productRefGroup = 49DA55321DA78DDD00B335CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49DA55301DA78DDD00B335CE /* ORDropMenu */,
+				49DA55491DA78DDD00B335CE /* ORDropMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49DA552F1DA78DDD00B335CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DA55441DA78DDD00B335CE /* LaunchScreen.storyboard in Resources */,
+				49DA55411DA78DDD00B335CE /* Assets.xcassets in Resources */,
+				49DA553F1DA78DDD00B335CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DA55481DA78DDD00B335CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49DA552D1DA78DDD00B335CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DA553C1DA78DDD00B335CE /* ViewController.m in Sources */,
+				49DA55641DA78E3700B335CE /* ORDropMenuView.m in Sources */,
+				49DA55391DA78DDD00B335CE /* AppDelegate.m in Sources */,
+				49DA55361DA78DDD00B335CE /* main.m in Sources */,
+				49DA55651DA78E3700B335CE /* ORHeaderFooterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DA55461DA78DDD00B335CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DA554F1DA78DDD00B335CE /* ORDropMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49DA554C1DA78DDD00B335CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49DA55301DA78DDD00B335CE /* ORDropMenu */;
+			targetProxy = 49DA554B1DA78DDD00B335CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49DA553D1DA78DDD00B335CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49DA553E1DA78DDD00B335CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49DA55421DA78DDD00B335CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49DA55431DA78DDD00B335CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49DA55511DA78DDD00B335CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49DA55521DA78DDD00B335CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49DA55541DA78DDD00B335CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X3YFLE989D;
+				INFOPLIST_FILE = ORDropMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rimi.ORDropMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49DA55551DA78DDD00B335CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X3YFLE989D;
+				INFOPLIST_FILE = ORDropMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rimi.ORDropMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49DA55571DA78DDD00B335CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ORDropMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rimi.ORDropMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ORDropMenu.app/ORDropMenu";
+			};
+			name = Debug;
+		};
+		49DA55581DA78DDD00B335CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ORDropMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rimi.ORDropMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ORDropMenu.app/ORDropMenu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49DA552C1DA78DDD00B335CE /* Build configuration list for PBXProject "ORDropMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DA55511DA78DDD00B335CE /* Debug */,
+				49DA55521DA78DDD00B335CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49DA55531DA78DDD00B335CE /* Build configuration list for PBXNativeTarget "ORDropMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DA55541DA78DDD00B335CE /* Debug */,
+				49DA55551DA78DDD00B335CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49DA55561DA78DDD00B335CE /* Build configuration list for PBXNativeTarget "ORDropMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DA55571DA78DDD00B335CE /* Debug */,
+				49DA55581DA78DDD00B335CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49DA55291DA78DDD00B335CE /* Project object */;
+}
